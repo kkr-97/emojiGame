@@ -1,0 +1,20 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 30px;
+  background-color: #ffffff33;
+}
+.nav-logo,
+.score-container-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+  margin-right: 18px;
+}
+.hide {
+  display: none;
+}

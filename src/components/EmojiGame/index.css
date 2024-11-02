@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+.game-container {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.emoji-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+}

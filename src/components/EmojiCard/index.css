@@ -1,0 +1,30 @@
+li {
+  height: 30%;
+  width: 20%;
+  margin: 10px;
+  border: 1px solid #ffffff30;
+  background-color: #ffffff33;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.emoji-btn {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.emoji-img {
+  max-height: 80px;
+}
+@media (max-width: 767px) {
+  li {
+    width: 28%;
+  }
+}

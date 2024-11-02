@@ -1,0 +1,48 @@
+.win-lose-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #ffffff33;
+  padding: 30px;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.win-lose-heading {
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.score-desc {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.score {
+  color: #6a59ff;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.win-lose-btn {
+  border-style: none;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  padding: 14px;
+  border-radius: 8px;
+  width: 100px;
+  cursor: pointer;
+}
